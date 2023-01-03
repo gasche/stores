@@ -16,4 +16,4 @@ depends: [
   "ocaml" { >= "4.05" }
   "dune"  { >= "2.0"  }
 ]
-synopsis: "Implementations of the union-find data structure"
+synopsis: "Implementations of reference stores"
