@@ -1,0 +1,12 @@
+{0 Stores}
+
+This library offers {b several different implementations of stores},
+such as persistent stores, mutable stores backed by mutable arrays,
+and more.
+
+{!modules:
+UnionFind.StoreRef
+UnionFind.StoreVector
+UnionFind.StoreMap
+UnionFind.StoreTransactionalRef
+}

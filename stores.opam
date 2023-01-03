@@ -1,0 +1,19 @@
+name: "stores"
+opam-version: "2.0"
+maintainer: "francois.pottier@inria.fr"
+license: "LGPL-2.0-only WITH OCaml-LGPL-linking-exception"
+authors: [
+  "François Pottier <francois.pottier@inria.fr>"
+  "Gabriel Scherer <gabriel.scherer@inria.fr>"
+]
+homepage: "https://github.com/fpottier/stores"
+dev-repo: "git+https://github.com/fpottier/stores.git"
+bug-reports: "francois.pottier@inria.fr"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [
+  "ocaml" { >= "4.05" }
+  "dune"  { >= "2.0"  }
+]
+synopsis: "Implementations of the union-find data structure"

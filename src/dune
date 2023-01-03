@@ -1,0 +1,14 @@
+(library
+  (name stores)
+  (public_name stores)
+  (synopsis "Implementations of a store data structure")
+)
+
+(env
+  (dev     (flags :standard -g -w A-4-44-67-70))
+  (release (flags :standard))
+)
+
+(documentation
+  (package stores)
+)
