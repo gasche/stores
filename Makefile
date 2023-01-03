@@ -85,9 +85,6 @@ bench:
 #   opam switch create 4.03.0
 
 VERSIONS := \
-  4.05.0 \
-  4.06.1 \
-  4.07.1 \
   4.08.1 \
   4.09.1 \
   4.09.0+bytecode-only \
